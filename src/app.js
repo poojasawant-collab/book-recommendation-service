@@ -61,6 +61,7 @@ function createApp(store = new BookStore()) {
     return err(res, 500, 'INTERNAL_ERROR', 'Unexpected error');
   });
 
+  // Random app
   return app;
 }
 
